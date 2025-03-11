@@ -1,3 +1,12 @@
-.ach-icon {
-    background-color: #f5f7fa;
-}
+:root {
+    --text-color: #18191F;
+    --background-one: #F5F7FA;
+    --background-two: #FFFFFF;
+    --footer-background: #263238;
+    --text-green: #4CAF4F;
+    --button-color: #4CAF4F;
+    --heading-color: #4D4D4D;
+    --text-color-two: #717171;
+    --footer-text: #f5f7fa;
+
+}  
