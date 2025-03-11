@@ -106,7 +106,18 @@ a {
 }
 
 .button:hover {
-    background-color: var(--background-one);
+    /* background-color: var(--background-one);
     color: var(--text-green);
-    border: 1px solid var(--text-green);
+    border: 1px solid var(--text-green); */
+    background-color: rgb(2, 134, 2);
+}
+
+.hero {
+    background-color: var(--background-one);
+    display: flex;
+    width: 100vw;
+    height: 37.5rem;
+    padding: 6rem 9rem;
+    align-items: center;
+    justify-content: center;
 }
