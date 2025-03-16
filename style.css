@@ -348,8 +348,8 @@ a {
     color: #717171;
     text-align: left;
 }
-.ach-icon {
-    /* border: 1px solid black; */
+/* .ach-icon {
+    border: 1px solid black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -357,11 +357,39 @@ a {
     width: 3rem;
     height: 3rem;
     padding: 0;
+} */ 
+
+.calendar {
+    min-height: 27rem;
+    padding: 3.5rem 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ach-icon img {
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
+.calendar-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+    width: 41.25rem;
+    height: 19.25rem;
+}
+
+.calendar-caption {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.calendar-text {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #717171;
+}
+
+.calendar-info .button {
+    width: max-content;
 }
