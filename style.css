@@ -392,5 +392,50 @@ a {
 
 .calendar-info .button {
     width: max-content;
-    
+}
+
+.customers {
+    min-height: 24.5rem;
+    display: flex;
+    background-color: var(--background-one);
+    padding: 2rem 9rem;
+    gap: 2rem;
+}
+
+.customer-sect-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.customer-sect-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 46.75rem;
+}
+
+.customer-sect-text .text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color-two);
+    margin-bottom: 1.5rem;
+}
+
+.customer-sect-text .name {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: var(--text-green);
+    margin-bottom: 1rem;
+}
+
+.customer-sect-text .designation {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #89939E;
 }
