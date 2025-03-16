@@ -304,7 +304,7 @@ a {
 .top-row, 
 .bottom-row {
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     align-items: center; /* Ensures elements are aligned properly */
 }
 
@@ -325,10 +325,9 @@ a {
 .ach-info {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    border: 1px solid black;
+    gap: .1rem;
+    /* border: 1px solid black; */
     width: 12rem;
-    /* align-items: center;  */
 }
 
 .figures {
@@ -347,10 +346,11 @@ a {
     text-align: left;
 }
 .ach-icon {
-    border: 1px solid black;
-    width: 10px;
+    /* border: 1px solid black; */
+    /* width: 30%; */
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding-right: 1rem;
 }
 
