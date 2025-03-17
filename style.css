@@ -19,6 +19,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    max-width: 100%;
 }
 
 #header {
@@ -397,6 +398,7 @@ a {
 .customers {
     min-height: 24.5rem;
     display: flex;
+    justify-content: center;
     background-color: var(--background-one);
     padding: 2rem 9rem;
     gap: 2rem;
@@ -438,4 +440,29 @@ a {
     line-height: 1.5rem;
     font-weight: 400;
     color: #89939E;
+}
+
+.customer-logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-link {
+    color: var(--text-green);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
 }
