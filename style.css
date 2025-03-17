@@ -621,3 +621,55 @@ footer {
     height: 2rem;
     border-radius: 50%;
 }
+
+.hyperlinks {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.company, .support, .email-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 10rem;
+}
+
+.company .heading, .support .heading, .email-contact .heading {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f5f7fa;
+}
+
+.email-contact {
+    width: 16rem;
+    position: relative;
+
+}
+
+#email {
+    background-color: rgba(255, 255, 255, .1);
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    padding: 0 1rem;
+}
+
+.email-contact img {
+    position: absolute;
+    width: 1.125rem;
+    height: 1.125rem;
+    top: 4rem;
+    left: 14rem;
+}
