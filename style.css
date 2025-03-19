@@ -663,6 +663,7 @@ footer {
     border-radius: .5rem;
     border: none;
     padding: 0 1rem;
+    color: #f5f7fa;
 }
 
 .email-contact img {
@@ -671,6 +672,7 @@ footer {
     height: 1.125rem;
     top: 4rem;
     left: 14rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -769,18 +771,21 @@ footer {
 
     .customers {
         flex-direction: column;
-        padding: 2rem;
+        padding: 2rem 4rem;
         align-items: center;
         text-align: center;
         gap: 2rem;
     }
 
     .customer-sect-text {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        text-align: left;
     }
 
     .customer-sect-text .text {
         text-align: justify;
+        max-width: 85%;
     }
 
     .customer-sect-text .name, .customer-sect-text .designation {
@@ -792,17 +797,49 @@ footer {
         gap: 1rem;
     }
 
+    .comm-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        row-gap: 7rem;
+        padding: 0;
+    }
+
+    .community-updates {
+        margin-bottom: 7rem;
+    }
+
+    .footer-text {
+        font-size: 3.5rem;
+        max-width: 85%;
+        line-height: 4rem;
+    }
+
     .footer-lower {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 3rem;
+        flex-direction: row;
+        align-items: flex-start;
+        /* justify-content: space-between; */
+        text-align: left;
+        padding: 3rem 1.5rem;
+        gap: 3rem;
+    }
+
+    .logo-and-links {
+        width: 33%;
     }
 
     .hyperlinks {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2.6rem;
+    }
+
+    .company, .support, .email-contact {
+        width: max-content;
+    }
+
+    .email-contact img {
+        left: 10.7rem;
     }
 }
 
