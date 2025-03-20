@@ -497,7 +497,7 @@ a {
     padding: 0 9rem;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: .2rem;
 }
 
 .cards {
@@ -511,8 +511,11 @@ a {
 }
 
 .comm-img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: auto; */
+    width: clamp(21rem, 5vw, 23rem);    max-width: 23rem;
+    height: auto;
+    object-fit: contain;
 }
 
 .description {
@@ -951,6 +954,14 @@ footer {
         gap: 1.5rem;
         align-items: center;
         padding: 0;
+    }
+
+    .cards {
+        width: 35%;
+    }
+
+    .comm-img {
+        max-width: 80%;
     }
 
     .footer-upper {
