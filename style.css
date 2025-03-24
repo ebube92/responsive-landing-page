@@ -962,9 +962,42 @@ footer {
 
     .achievements {
         flex-direction: column;
-        padding: 2rem 1rem;
+        padding: 4%;
         text-align: center;
         gap: 2rem;
+        max-width: 100%;
+    }
+
+    .section-caption {
+        max-width: 100%;
+    }
+
+    .achievement-caption {
+        font-size: .5rem;
+    }
+
+    .achievements-stats {
+       max-width: 80%;
+    }
+
+    .stats div {
+        width: 30%;
+    }
+
+    .figures {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 700;
+        color: var(--heading-color);
+        text-align: left;
+    }
+    
+    .stats-caption {
+        font-size: .9rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: #717171;
+        text-align: left;
     }
 
     .calendar {
