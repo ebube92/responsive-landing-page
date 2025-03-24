@@ -980,8 +980,23 @@ footer {
        max-width: 80%;
     }
 
+    .top-row {
+        margin-bottom: 2rem;
+    }
+
+    .stats {
+        justify-content: center;
+        gap: 6rem;
+        width: 80%;
+    }
+
     .stats div {
         width: 30%;
+    }
+
+    .stats div img {
+        width: 40%;
+        height: auto;
     }
 
     .figures {
@@ -1001,17 +1016,41 @@ footer {
     }
 
     .calendar {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 2rem 1rem;
         text-align: center;
         gap: 2rem;
+    }
+
+    .section-image {
+        width: 80%;
+    }
+
+    .section-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .calendar-info {
+        max-width: 100%;
+        padding: 0 2%;
     }
 
     .customers {
         flex-direction: column;
         padding: 2rem 1rem;
         text-align: center;
+        align-items: center;
         gap: 2rem;
+    }
+
+    .customer-sect-image {
+        width: 80%;
+    }
+
+    .customer-sect-image img {
+        max-width: 100%;
+        height: auto;
     }
 
     .customer-sect-text {
