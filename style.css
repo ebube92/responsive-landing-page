@@ -882,10 +882,6 @@ footer {
         gap: .3rem;
     }
 
-    .hero {
-        align-items: center;
-    }
-
     .info-img {
         width: 80%;
     }
@@ -897,26 +893,30 @@ footer {
 
     .hero {
         flex-direction: column-reverse;
+        text-align: left;
         height: auto;
-        padding: 3rem 1.5rem;
-        gap: 2rem;
+        padding: 4rem 3rem;
+        gap: 3rem;
+        align-items: center;
     }
 
     .info {
-        max-width: 90%;
+        width: 100%;
+        gap: 1.3rem;
     }
 
     .info h1 {
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
 
     .info p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .community {
         padding: 2rem 1rem;
+        margin-bottom: 0;
     }
 
     .community-cards {
@@ -936,6 +936,28 @@ footer {
         padding: 2rem 1rem;
         text-align: center;
         gap: 2rem;
+        margin-top: 0;
+    }
+
+    .unlock-img {
+        width: 80%;
+    }
+
+    .unlock-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .unlock-info {
+        max-width: 90%;
+    }
+
+    .unlock-caption {
+        font-size: .5rem;
+    }
+
+    .unlock-info p {
+        text-align: left;
     }
 
     .achievements {
